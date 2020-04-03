@@ -11,5 +11,12 @@ const uncheckedCountSpan = document.getElementById('unchecked-count')
 
 function newTodo() {
 
-    alert("Button is clicked")
+    var todo = prompt('sss');
+    var li = document.createElement('li');
+    var li = document.createElement('input');
+    li.type = "checkbox";
+    li.value = 1;
+    li.name = "todo[]";
+    list.appendChild(li);
+    list.appendChild(document.createTextNode(todo));
 }
